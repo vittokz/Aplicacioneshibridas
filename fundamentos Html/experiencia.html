@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <!--se adapte a culaquier pantalla y no se eealice zoom -->
+  <meta name="viemport" content="width=device-width,user=scalable=no">
+  <meta name="author" content="vittorio">
+  <meta name="keywords" content="hoja de vida">
+  <meta name="description" content="hoja de vida">
+
+  <title>Experiencia</title>
+ </head>
+<body>
+ 
+  <header>
+    <svg width=200 height=200>
+	<polygon points="100,10 40,198 190,78 10,78 160,198"
+    style="fill:#D7DAD7;stroke:BLUE;stroke-width:3;" />
+  </svg> 
+    <h1>HOJA DE VIDA</h1>
+    <h2>Vittorio Andrés Cassetta</h2> 
+  </header>
+  <nav>
+   <ul>
+     <li><a href="index.html">Inicio</a></li>
+     <li><a href="educacion.html">Eduación</a></li>
+     <li><a href="experiencia.html">Experiencia</a></li>
+   </ul>
+  </nav>
+  
+  <section>
+  <h2>Información Personal</h2>
+   <ul>
+     <li>Nombre: Vittorio Andrés</li>
+     <li>Apellido: Cassetta Varón</li>
+     <li>Fecha Nacimiento: 14 Enero de 1987</li>
+   </ul>
+    
+  <h2>Educación</h2>
+  <table border="1" cellpadding="10">
+    <thead>
+       <th>Año</th>
+       <th>Institución</th>
+       <th>Lugar</th>
+       <th>Terminó</th>
+    </thead>
+    <tbody>
+       <tr>
+           <td>2007</td>
+           <td>Universidad de Nariño</td>
+           <td>Pasto-Colombia</td>
+           <td>Si</td>
+       </tr>
+       <tr>
+           <td>2011</td>
+           <td>Universidad San Martin</td>
+           <td>Pasto-Colombia</td>
+           <td>Si</td>
+       </tr>
+    </tbody>
+  </table>
+  <br>
+  <h2>Agregar Educación</h2>
+  <form name="Agregar estudios">
+  <table border="1" cellpadding="2">
+    <thead>
+       <th>Año</th>
+       <th>Institución</th>
+       <th>Lugar</th>
+       <th>Culminó</th>
+       <th></th>
+    </thead>
+    <tbody>
+       <tr>
+           <td><select name="lista">
+            <option value="2015">2015</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+           </select></td>
+           <td><input name="institucion" type="text" required placeholder="Ingrese Instirución"></td>
+           <td><textarea name="5" cols="40" rows="" placeholder="Ingrese Lugar"></textarea ></td>
+           <td>Si<input name="" type="radio" value="" checked>No<input name="" type="radio" value=""></td>
+           <td colspan="2"> <input name="" type="submit" value="Enviar"></td>
+    </tr>
+   </tbody>
+  </table>   
+  </form><br>
+</section>
+ 
+ 
+ <footer> 
+   Derechos Reservados
+   <ul>
+     <li><strong>Email:</strong>vittoriocassetta@gmail.com</li>
+     <li><strong>Teléfono:</strong> 3212880350</li>
+     <li><strong>Dirección:</strong> Cra 22a n 13 - 119</li>
+   </ul>
+ </footer>
+
+</body>
+</html>
